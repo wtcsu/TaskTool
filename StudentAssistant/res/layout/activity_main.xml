@@ -8,9 +8,62 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.bbu1.studentassistant.MainActivity" >
 
-    <TextView
+    
+    <Button
+        android:id="@+id/ContactButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Contact" />
+
+    <Button
+        android:id="@+id/CourseButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ContactButton"
+        android:layout_below="@+id/ContactButton"
+        android:text="Course" />
+
+    <Button
+        android:id="@+id/DiaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/CourseButton"
+        android:layout_below="@+id/CourseButton"
+        android:text="Diary" />
+
+    <Button
+        android:id="@+id/NotebookButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/DiaryButton"
+        android:layout_below="@+id/DiaryButton"
+        android:layout_centerVertical="true"
+        android:text="Notebook" />
+
+    <Button
+        android:id="@+id/TaskButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/NotebookButton"
+        android:layout_below="@+id/NotebookButton"
+        android:text="Task" />
+
+    <Button
+        android:id="@+id/ClockButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TaskButton"
+        android:text="Clock" />
+
+    <Button
+        android:id="@+id/CalclatorButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ClockButton"
+        android:text="Caculator" />
+    
 
 </RelativeLayout>

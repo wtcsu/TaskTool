@@ -30,7 +30,7 @@ public class CityWeather extends Activity
 		setContentView(R.layout.main);
 		init();
 	}
-
+   /* ddfd */
 
 	private void init()
 	{

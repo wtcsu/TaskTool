@@ -13,7 +13,7 @@ import android.widget.Button;
 import android.widget.DatePicker;
 
 /**
- * @author donglihan 西北工业大学软件与微电子学院 RJ010802
+ * @author donglihan 西北工业大学软件与微电1231321141子学院 RJ010802
  * @version 1
  */
 public class course_set_activity extends Activity
